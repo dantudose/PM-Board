@@ -13,6 +13,7 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 * RGB LED
 * 16x02 character LCD display
 * GPIO LEDs and pushbuttons
+* JTAG and ISP connectors
 * USB programming and data interface
 
 <div id="cover">
