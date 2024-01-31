@@ -36,7 +36,7 @@ Board Pinout
 <tbody>
 <tr>
 <td>
-  <table style="float: left;" border="-">
+  <table style="float: left;">
 <tbody>
 <tr>
 <td style="text-align: left;">&nbsp;<b>16x2 LCD</b>&nbsp;</td>
@@ -87,7 +87,7 @@ Board Pinout
 </table>
 </td>
 <td>
-  <table style="float: left;" border="|">
+  <table style="float: left;">
 <tbody>
 <tr>
 <td>&nbsp;<b>Graphical LCD</b>&nbsp;</td>
@@ -139,7 +139,7 @@ Board Pinout
 
 
 
-<table style="float: left; width: 584.312px;" border="-">
+<table style="float: left; width: 584.312px;">
 <tbody>
 <tr>
 <td style="width: 76px;">&nbsp;<strong>I2C</strong></td>
