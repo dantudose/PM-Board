@@ -29,9 +29,60 @@ Repository Contents
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Images** - Board images
 
-Documentation
---------------
-* Pinout
+Board Pinout
+------------
+
+<table style="float: left;" border="-">
+<tbody>
+<tr>
+<td style="text-align: left;">&nbsp;16x2 LCD&nbsp;</td>
+<td style="text-align: left;">&nbsp;GPIO Pin&nbsp;</td>
+<td style="text-align: left;">&nbsp;Arduino Pin&nbsp;</td>
+</tr>
+<tr>
+<td>RS</td>
+<td>&nbsp;PC0</td>
+<td>&nbsp;16</td>
+</tr>
+<tr>
+<td>RW&nbsp;</td>
+<td>&nbsp;PC1&nbsp;</td>
+<td>&nbsp;17</td>
+</tr>
+<tr>
+<td>En&nbsp;</td>
+<td>&nbsp;PC2&nbsp;</td>
+<td>&nbsp;18&nbsp;</td>
+</tr>
+<tr>
+<td>D4&nbsp;</td>
+<td>&nbsp;PC3&nbsp;</td>
+<td>&nbsp;19&nbsp;</td>
+</tr>
+<tr>
+<td>D5&nbsp;</td>
+<td>&nbsp;PC4&nbsp;</td>
+<td>&nbsp;20&nbsp;</td>
+</tr>
+<tr>
+<td>D6&nbsp;</td>
+<td>&nbsp;PC5&nbsp;</td>
+<td>&nbsp;21&nbsp;</td>
+</tr>
+<tr>
+<td>D7&nbsp;</td>
+<td>&nbsp;PC6&nbsp;</td>
+<td>&nbsp;22&nbsp;</td>
+</tr>
+<tr>
+<td>Backlight&nbsp;</td>
+<td>&nbsp;PC7&nbsp;</td>
+<td>&nbsp;23&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<!-- DivTable.com -->
+
 
 License Information
 -------------------
