@@ -124,6 +124,44 @@ Board Pinout
 </table>
 
 
+<table style="float: left; width: 584.312px;" border="-">
+<tbody>
+<tr>
+<td style="width: 76px;">&nbsp;<strong>I2C</strong></td>
+<td style="width: 103px;"><strong>&nbsp;GPIO Pin</strong>&nbsp;</td>
+<td style="width: 94px;"><strong>&nbsp;Arduino Pin</strong>&nbsp;</td>
+<td style="width: 35px;">&nbsp;</td>
+<td style="width: 98px;"><strong>&nbsp;Chip</strong>&nbsp;</td>
+<td style="width: 162.312px;"><strong>&nbsp;Address</strong>&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 76px;">&nbsp;I2C Enable&nbsp;</td>
+<td style="width: 103px;">&nbsp;PA6</td>
+<td style="width: 94px;">&nbsp;30</td>
+<td style="width: 35px;">&nbsp;</td>
+<td style="width: 98px;">&nbsp;LSM9DS0&nbsp;</td>
+<td style="width: 162.312px;">&nbsp;0x1D (XM) 0x6B (G)</td>
+</tr>
+<tr>
+<td style="width: 76px;">&nbsp;SCL&nbsp;</td>
+<td style="width: 103px;">&nbsp;PC0&nbsp;</td>
+<td style="width: 94px;">&nbsp;16</td>
+<td style="width: 35px;">&nbsp;</td>
+<td style="width: 98px;">&nbsp;MPL3115A2&nbsp;</td>
+<td style="width: 162.312px;">&nbsp;0x60&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 76px;">&nbsp;SDA&nbsp;</td>
+<td style="width: 103px;">&nbsp;PC1&nbsp;</td>
+<td style="width: 94px;">&nbsp;17&nbsp;</td>
+<td style="width: 35px;">&nbsp;</td>
+<td style="width: 98px;">&nbsp;</td>
+<td style="width: 162.312px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<!-- DivTable.com -->
+
 
 License Information
 -------------------
