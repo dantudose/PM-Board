@@ -236,6 +236,34 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 </tbody>
 </table>
 
+### Miscellaneous
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-amwm">RGB LED</th>
+    <th class="tg-amwm">GPIO Pin</th>
+    <th class="tg-amwm">Arduino Pin</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-hmp3">Red</td>
+    <td class="tg-hmp3">PD5</td>
+    <td class="tg-hmp3">13</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Green</td>
+    <td class="tg-0lax">PD7</td>
+    <td class="tg-0lax">15</td>
+  </tr>
+  <tr>
+    <td class="tg-hmp3">Blue</td>
+    <td class="tg-hmp3">PB3</td>
+    <td class="tg-hmp3">3</td>
+  </tr>
+</tbody>
+</table>
 
 ## License Information
 
