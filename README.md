@@ -26,6 +26,7 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Images** - Board images
+* **/bin** - Binaries (board bootloader)
 
 ## Programming
 
