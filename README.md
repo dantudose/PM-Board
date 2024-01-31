@@ -163,6 +163,37 @@ Board Pinout
 <!-- DivTable.com -->
 
 
+<table style="float: left;" border="-">
+<tbody>
+<tr>
+<td>&nbsp;<b>SD Card</b>&nbsp;</td>
+<td>&nbsp;<b>GPIO Pin</b>&nbsp;</td>
+<td>&nbsp;<b>Arduino Pin</b>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;CS</td>
+<td>&nbsp;PA2</td>
+<td>&nbsp;26</td>
+</tr>
+<tr>
+<td>&nbsp;MOSI&nbsp;</td>
+<td>&nbsp;PB5&nbsp;</td>
+<td>&nbsp;5&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;MISO&nbsp;</td>
+<td>&nbsp;PB6&nbsp;</td>
+<td>&nbsp;6&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;SCK&nbsp;</td>
+<td>&nbsp;PB7&nbsp;</td>
+<td>&nbsp;7&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<!-- DivTable.com -->
+
 License Information
 -------------------
 
