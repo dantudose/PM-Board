@@ -32,6 +32,8 @@ Repository Contents
 Board Pinout
 ------------
 
+### LCD Displays
+
 <table>
 <tbody>
 <tr>
