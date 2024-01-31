@@ -32,6 +32,9 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 
 ### avr-gcc
 
+The board comes pre-loaded with a bootloader. If you need to re-write it, connect an AVR-ISP or JTAG to the corresponding port and burn the <a href="https://github.com/dantudose/PM-Board/tree/main/bin">bootloader</a> .hex file with the following fuse settings:
+
+
 ### Arduino
 
 The board can be programmed using <a href="https://github.com/MCUdude/MightyCore">Mighty-Core</a>. 
