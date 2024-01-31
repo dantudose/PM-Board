@@ -58,8 +58,59 @@ The board comes pre-loaded with a bootloader. If you need to re-write it, connec
 </tbody>
 </table>
 
+#### Writing a simple Hello World
 
+Install avr-gcc on your machine. There are various tutorials on how to do this. Here are some examples, depending on your OS type:
+* <a href="https://tinusaur.com/guides/avr-gcc-toolchain/">Windows</a>
+* <a href="https://baremetalmicro.com/tutorial_avr_toolchain/03-Install-on-Ubuntu-Linux.html">Linux</a>
+* <a href="https://wellys.com/posts/avr_c_macos/">Mac</a>
 
+Copy this code into your favourite code editor and save the file as "hello.c":
+
+```cpp
+#include <avr/io.h>
+#include <util/delay.h>
+ 
+int main() {
+	/* Setting PC0 as output */
+	DDRC |= (1 << PC0);
+ 
+	while(1) {
+                /* Toggle pin state */
+		PORTC ^= (1 << PC0);
+ 
+                _delay_ms(500);
+	}
+ 
+	return 0;
+}
+
+```
+To build and upload, you can use the following Makefile. Edit the port to correspond with your OS and serial port name:
+
+```Makefile
+# Linux
+PORT ?= /dev/ttyUSB0
+# Windows
+# PORT ?= COM1
+ 
+all: hello.hex
+ 
+hello.hex: hello.elf
+	avr-objcopy  -j .text -j .data -O ihex $^ $@
+	avr-size hello.elf
+ 
+hello.elf: hello.c
+	avr-g++ -mmcu=atmega324p -DF_CPU=12000000 -Os -Wall -o $@ $^
+ 
+upload: hello.hex
+	avrdude -c arduino -P $(PORT) -b 57600 -p atmega324p -U flash:w:$<:a
+ 
+clean:
+	rm -rf hello.elf hello.hex
+```
+
+From your command line call _> make all_ (generates hello.hex) and then _> make upload_.
 
 ### Arduino
 
