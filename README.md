@@ -241,26 +241,41 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-amwm">RGB LED</th>
+    <th class="tg-0lax"></th>
     <th class="tg-amwm">GPIO Pin</th>
     <th class="tg-amwm">Arduino Pin</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-hmp3">Red</td>
-    <td class="tg-hmp3">PD5</td>
-    <td class="tg-hmp3">13</td>
+    <td class="tg-0lax">Temperature Sensor</td>
+    <td class="tg-0lax">PA0</td>
+    <td class="tg-0lax">A0</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Green</td>
-    <td class="tg-0lax">PD7</td>
-    <td class="tg-0lax">15</td>
+    <td class="tg-0lax">Ambient Light Sensor</td>
+    <td class="tg-0lax">PA1</td>
+    <td class="tg-0lax">A1</td>
   </tr>
   <tr>
-    <td class="tg-hmp3">Blue</td>
-    <td class="tg-hmp3">PB3</td>
-    <td class="tg-hmp3">3</td>
+    <td class="tg-0lax">Buttons (BTN1-6)</td>
+    <td class="tg-0lax">PA5</td>
+    <td class="tg-0lax">A5</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">BTN 1</td>
+    <td class="tg-0lax">PB2</td>
+    <td class="tg-0lax">2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">BTN 2</td>
+    <td class="tg-0lax">PD6</td>
+    <td class="tg-0lax">14</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Speaker</td>
+    <td class="tg-0lax">PD4</td>
+    <td class="tg-0lax">12</td>
   </tr>
 </tbody>
 </table>
