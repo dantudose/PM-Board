@@ -30,8 +30,9 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 
 ## Programming
 
-### avr-gcc
+### avr-gcc & Makefile
 
+#### Bootloader
 The board comes pre-loaded with a bootloader. If you need to re-write it, connect an AVR-ISP or JTAG to the corresponding port and burn the <a href="https://github.com/dantudose/PM-Board/tree/main/bin">bootloader</a> .hex file with ATmega324P as a target and the following fuse settings:
 
 <table>
