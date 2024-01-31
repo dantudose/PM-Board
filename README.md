@@ -272,7 +272,7 @@ Follow the "How to install" guide on their github page and use the following set
 <table style="float: left;">
 <tbody>
 <tr>
-<td>&nbsp;<b>SD Card</b>&nbsp;</td>
+<td>&nbsp;<b> </b>&nbsp;</td>
 <td>&nbsp;<b>GPIO Pin</b>&nbsp;</td>
 <td>&nbsp;<b>Arduino Pin</b>&nbsp;</td>
 </tr>
@@ -305,7 +305,7 @@ Follow the "How to install" guide on their github page and use the following set
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-amwm">RGB LED</th>
+    <th class="tg-amwm"> </th>
     <th class="tg-amwm">GPIO Pin</th>
     <th class="tg-amwm">Arduino Pin</th>
   </tr>
