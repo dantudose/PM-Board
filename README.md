@@ -258,7 +258,7 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
     <td class="tg-0lax">A1</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Buttons (BTN1-6)</td>
+    <td class="tg-0lax">Buttons (BTN1 - 6)</td>
     <td class="tg-0lax">PA5</td>
     <td class="tg-0lax">A5</td>
   </tr>
