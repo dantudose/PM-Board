@@ -35,9 +35,9 @@ Board Pinout
 <table style="float: left;" border="-">
 <tbody>
 <tr>
-<td style="text-align: left;">&nbsp;16x2 LCD&nbsp;</td>
-<td style="text-align: left;">&nbsp;GPIO Pin&nbsp;</td>
-<td style="text-align: left;">&nbsp;Arduino Pin&nbsp;</td>
+<td style="text-align: left;">&nbsp;<b>16x2 LCD</b>&nbsp;</td>
+<td style="text-align: left;">&nbsp;<b>GPIO Pin</b>&nbsp;</td>
+<td style="text-align: left;">&nbsp;<b>Arduino Pin</b>&nbsp;</td>
 </tr>
 <tr>
 <td>RS</td>
