@@ -32,7 +32,11 @@ Repository Contents
 Board Pinout
 ------------
 
-<table style="float: left;" border="-">
+<table>
+<tbody>
+<tr>
+<td>
+  <table style="float: left;" border="-">
 <tbody>
 <tr>
 <td style="text-align: left;">&nbsp;<b>16x2 LCD</b>&nbsp;</td>
@@ -81,9 +85,9 @@ Board Pinout
 </tr>
 </tbody>
 </table>
-
-
-<table style="float: left;" border="|">
+</td>
+<td>
+  <table style="float: left;" border="|">
 <tbody>
 <tr>
 <td>&nbsp;<b>Graphical LCD</b>&nbsp;</td>
@@ -122,6 +126,17 @@ Board Pinout
 </tr>
 </tbody>
 </table>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
 
 
 <table style="float: left; width: 584.312px;" border="-">
