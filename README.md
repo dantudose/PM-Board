@@ -35,7 +35,7 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 
 The board can be programmed using <a href="https://github.com/MCUdude/MightyCore">Mighty-Core</a>. 
 
-Follow the Getting Started guide on their github page and use the following settings when burning the bootloader and uploading a sketch:
+Follow the "How to install" guide on their github page and use the following settings when burning the bootloader and uploading a sketch:
 
 <img src="https://github.com/dantudose/PM-Board/blob/main/Images/mightyCore.png" />
 
