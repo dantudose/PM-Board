@@ -1,6 +1,6 @@
 # PM-Board
 
-Embedded development board with ATmega324P
+## Embedded development board with ATmega324P
 ------------------------------------------
 
 <img src="https://github.com/dantudose/PM-Board/blob/main/Images/PM_board.png" height="300"/>
@@ -23,13 +23,13 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 
 
 
-Repository Contents
+## Repository Contents
 -------------------
 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Images** - Board images
 
-Board Pinout
+## Board Pinout
 ------------
 
 ### LCD Displays
@@ -137,9 +137,7 @@ Board Pinout
 
 
 
-
-
-
+### I2C Sensors & Bus Addresses
 
 <table style="float: left; width: 584.312px;">
 <tbody>
@@ -179,6 +177,7 @@ Board Pinout
 </table>
 <!-- DivTable.com -->
 
+### SD Card
 
 <table style="float: left;">
 <tbody>
@@ -211,6 +210,7 @@ Board Pinout
 </table>
 <!-- DivTable.com -->
 
+### RGB LED
 
 <table class="tg">
 <thead>
@@ -240,7 +240,7 @@ Board Pinout
 </table>
 
 
-License Information
+## License Information
 -------------------
 
 This product is _**open source**_! 
