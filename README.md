@@ -178,7 +178,7 @@ Board Pinout
 <!-- DivTable.com -->
 
 
-<table style="float: left;" border="|-">
+<table style="float: left;">
 <tbody>
 <tr>
 <td>&nbsp;<b>SD Card</b>&nbsp;</td>
