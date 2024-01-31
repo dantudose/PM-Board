@@ -81,7 +81,48 @@ Board Pinout
 </tr>
 </tbody>
 </table>
-<!-- DivTable.com -->
+
+
+<table style="float: left;" border="|">
+<tbody>
+<tr>
+<td>&nbsp;<b>Graphical LCD</b>&nbsp;</td>
+<td>&nbsp;<b>GPIO Pin</b>&nbsp;</td>
+<td>&nbsp;<b>Arduino Pin</b>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;CS</td>
+<td>&nbsp;PB0</td>
+<td>&nbsp;0</td>
+</tr>
+<tr>
+<td>&nbsp;RST&nbsp;</td>
+<td>&nbsp;PB1&nbsp;</td>
+<td>&nbsp;1&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;A0&nbsp;</td>
+<td>&nbsp;PB4&nbsp;</td>
+<td>&nbsp;4&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;SDA&nbsp;</td>
+<td>&nbsp;PB5&nbsp;</td>
+<td>&nbsp;5&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;SCK&nbsp;</td>
+<td>&nbsp;PB7&nbsp;</td>
+<td>&nbsp;7&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;Backlight&nbsp;</td>
+<td>&nbsp;PA7&nbsp;</td>
+<td>&nbsp;31&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
 
 
 License Information
