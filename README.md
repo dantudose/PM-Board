@@ -1,7 +1,6 @@
 # PM-Board
 
 ## Embedded development board with ATmega324P
-------------------------------------------
 
 <img src="https://github.com/dantudose/PM-Board/blob/main/Images/PM_board.png" height="300"/>
 
@@ -24,13 +23,11 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 
 
 ## Repository Contents
--------------------
 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Images** - Board images
 
 ## Board Pinout
-------------
 
 ### LCD Displays
 
@@ -241,7 +238,6 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 
 
 ## License Information
--------------------
 
 This product is _**open source**_! 
 
