@@ -122,7 +122,7 @@ Follow the "How to install" guide on their github page and use the following set
 
 ## Board Pinout
 
-### LCD Displays
+#### LCD Displays
 
 <table>
 <tbody>
@@ -227,7 +227,7 @@ Follow the "How to install" guide on their github page and use the following set
 
 
 
-### I2C Sensors & Bus Addresses
+#### I2C Sensors & Bus Addresses
 
 <table style="float: left; width: 584.312px;">
 <tbody>
@@ -267,7 +267,7 @@ Follow the "How to install" guide on their github page and use the following set
 </table>
 <!-- DivTable.com -->
 
-### SD Card
+#### SD Card
 
 <table style="float: left;">
 <tbody>
@@ -300,7 +300,7 @@ Follow the "How to install" guide on their github page and use the following set
 </table>
 <!-- DivTable.com -->
 
-### RGB LED
+#### RGB LED
 
 <table class="tg">
 <thead>
