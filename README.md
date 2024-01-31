@@ -27,6 +27,15 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Images** - Board images
 
+## Programming
+
+### avr-gcc
+
+### Arduino
+
+The board can be programmed using <a href="https://github.com/MCUdude/MightyCore">Mighty-Core</a>. Use the following settings when burning the bootloader and uploading a sketch:
+
+
 ## Board Pinout
 
 ### LCD Displays
