@@ -125,106 +125,92 @@ Follow the "How to install" guide on their github page and use the following set
 #### LCD Displays
 
 <table>
+<thead>
+  <tr>
+    <th>Character LCD</th>
+    <th>GPIO Pin</th>
+    <th>Arduino Pin</th>
+    <th></th>
+    <th>Graphical LCD</th>
+    <th>GPIO Pin</th>
+    <th>Arduino Pin</th>
+  </tr>
+</thead>
 <tbody>
-<tr>
-<td>
-  <table style="float: left;">
-<tbody>
-<tr>
-<td style="text-align: left;">&nbsp;<b>16x2 LCD</b>&nbsp;</td>
-<td style="text-align: left;">&nbsp;<b>GPIO Pin</b>&nbsp;</td>
-<td style="text-align: left;">&nbsp;<b>Arduino Pin</b>&nbsp;</td>
-</tr>
-<tr>
-<td>RS</td>
-<td>&nbsp;PC0</td>
-<td>&nbsp;16</td>
-</tr>
-<tr>
-<td>RW&nbsp;</td>
-<td>&nbsp;PC1&nbsp;</td>
-<td>&nbsp;17</td>
-</tr>
-<tr>
-<td>En&nbsp;</td>
-<td>&nbsp;PC2&nbsp;</td>
-<td>&nbsp;18&nbsp;</td>
-</tr>
-<tr>
-<td>D4&nbsp;</td>
-<td>&nbsp;PC3&nbsp;</td>
-<td>&nbsp;19&nbsp;</td>
-</tr>
-<tr>
-<td>D5&nbsp;</td>
-<td>&nbsp;PC4&nbsp;</td>
-<td>&nbsp;20&nbsp;</td>
-</tr>
-<tr>
-<td>D6&nbsp;</td>
-<td>&nbsp;PC5&nbsp;</td>
-<td>&nbsp;21&nbsp;</td>
-</tr>
-<tr>
-<td>D7&nbsp;</td>
-<td>&nbsp;PC6&nbsp;</td>
-<td>&nbsp;22&nbsp;</td>
-</tr>
-<tr>
-<td>Backlight&nbsp;</td>
-<td>&nbsp;PC7&nbsp;</td>
-<td>&nbsp;23&nbsp;</td>
-</tr>
+  <tr>
+    <td>RS</td>
+    <td>PC0</td>
+    <td>16</td>
+    <td></td>
+    <td>CS</td>
+    <td>PB0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>RW</td>
+    <td>PC1</td>
+    <td>17</td>
+    <td></td>
+    <td>RST</td>
+    <td>PB1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>EN</td>
+    <td>PC2</td>
+    <td>18</td>
+    <td></td>
+    <td>A0</td>
+    <td>PB4</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>D4</td>
+    <td>PC3</td>
+    <td>19</td>
+    <td></td>
+    <td>SDA</td>
+    <td>PB5</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>D5</td>
+    <td>PC4</td>
+    <td>20</td>
+    <td></td>
+    <td>SCK</td>
+    <td>PB7</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>D6</td>
+    <td>PC5</td>
+    <td>21</td>
+    <td></td>
+    <td>Backlight</td>
+    <td>PA7</td>
+    <td>31</td>
+  </tr>
+  <tr>
+    <td>D7</td>
+    <td>PC6</td>
+    <td>22</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Backlight</td>
+    <td>PC7</td>
+    <td>23</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </tbody>
 </table>
-</td>
-<td>
-  <table style="float: left;">
-<tbody>
-<tr>
-<td>&nbsp;<b>Graphical LCD</b>&nbsp;</td>
-<td>&nbsp;<b>GPIO Pin</b>&nbsp;</td>
-<td>&nbsp;<b>Arduino Pin</b>&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;CS</td>
-<td>&nbsp;PB0</td>
-<td>&nbsp;0</td>
-</tr>
-<tr>
-<td>&nbsp;RST&nbsp;</td>
-<td>&nbsp;PB1&nbsp;</td>
-<td>&nbsp;1&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;A0&nbsp;</td>
-<td>&nbsp;PB4&nbsp;</td>
-<td>&nbsp;4&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;SDA&nbsp;</td>
-<td>&nbsp;PB5&nbsp;</td>
-<td>&nbsp;5&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;SCK&nbsp;</td>
-<td>&nbsp;PB7&nbsp;</td>
-<td>&nbsp;7&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;Backlight&nbsp;</td>
-<td>&nbsp;PA7&nbsp;</td>
-<td>&nbsp;31&nbsp;</td>
-</tr>
-</tbody>
-</table>
-
-</td>
-</tr>
-</tbody>
-</table>
-
-
 
 
 #### I2C Sensors & Bus Addresses
