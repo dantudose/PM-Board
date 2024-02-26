@@ -104,7 +104,7 @@ hello.elf: hello.c
 	avr-g++ -mmcu=atmega324p -DF_CPU=12000000 -Os -Wall -o $@ $^
  
 upload: hello.hex
-	avrdude -c arduino -P $(PORT) -b 57600 -p atmega324p -U flash:w:$<:a
+	avrdude -c urclock -P $(PORT) -b 57600 -p atmega324p -D -xnometadata -U flash:w:$<:a
  
 clean:
 	rm -rf hello.elf hello.hex
