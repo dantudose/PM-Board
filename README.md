@@ -24,6 +24,7 @@ This is a development board supporting the ATmega324P microcontroller. It is ful
 
 ## Repository Contents
 
+* **/Code** - Test code for the board (PlatformIO)
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Images** - Board images
 * **/bin** - Binaries (board bootloader)
