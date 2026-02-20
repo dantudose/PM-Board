@@ -1,4 +1,4 @@
-# PM Board Test
+# PM-Board Test
 
 PlatformIO project for validating the PM-board. The firmware brings up the board peripherals, reads sensors over I2C/ADC, and renders live values on the TFT display while driving status LEDs and the speaker.
 
