@@ -121,6 +121,10 @@ Follow the "How to install" guide on their github page and use the following set
 
 <img src="https://github.com/dantudose/PM-Board/blob/main/Images/mightyCore.png" />
 
+### PlatformIO (VSCode)
+
+Use the /Code project as reference. 
+
 ## Board Pinout
 
 #### LCD Displays
