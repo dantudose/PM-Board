@@ -342,11 +342,6 @@ Use the /Code project as reference.
     <td class="tg-0lax">A1</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Buttons (BTN1 - 6)</td>
-    <td class="tg-0lax">PA5</td>
-    <td class="tg-0lax">A5</td>
-  </tr>
-  <tr>
     <td class="tg-0lax">BUTTON 1 (PB2)</td>
     <td class="tg-0lax">PB2</td>
     <td class="tg-0lax">2</td>
@@ -355,6 +350,11 @@ Use the /Code project as reference.
     <td class="tg-0lax">BUTTON 2 (PD6)</td>
     <td class="tg-0lax">PD6</td>
     <td class="tg-0lax">14</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Buttons (BTN1 - 6)</td>
+    <td class="tg-0lax">PA5</td>
+    <td class="tg-0lax">A5</td>
   </tr>
   <tr>
     <td class="tg-0lax">Speaker</td>
