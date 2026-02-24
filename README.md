@@ -347,12 +347,12 @@ Use the /Code project as reference.
     <td class="tg-0lax">A5</td>
   </tr>
   <tr>
-    <td class="tg-0lax">BTN 1</td>
+    <td class="tg-0lax">BUTTON 1 (PB2)</td>
     <td class="tg-0lax">PB2</td>
     <td class="tg-0lax">2</td>
   </tr>
   <tr>
-    <td class="tg-0lax">BTN 2</td>
+    <td class="tg-0lax">BUTTON 2 (PD6)</td>
     <td class="tg-0lax">PD6</td>
     <td class="tg-0lax">14</td>
   </tr>
